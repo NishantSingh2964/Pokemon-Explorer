@@ -49,8 +49,8 @@ export default function PokemonCard({ pokemon }) {
         <p className="text-center text-gray-500">ID: {pokemon.id}</p>
 
         {/* Type badges */}
-        <span className={`px-2 py-1 rounded text-xs font-semibold  bg-gray-200 text-gray-800`}>Details</span>
         <div className="mt-2 flex justify-center flex-wrap gap-2">
+          <span className={`px-2 py-1 rounded text-xs font-semibold  bg-gray-200 text-gray-800`}>Details</span>
           {pokemon.types.map((t) => (
             <span
               key={t.type.name}
