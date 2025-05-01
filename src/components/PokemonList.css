@@ -1,0 +1,16 @@
+/* Pokemon List Container */
+.pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-items: center;
+  }
+
+  .pokemon-list .empty-state {
+    font-size: 1.5rem;
+    color: #6b7280;
+    text-align: center;
+    grid-column: span 3;
+  }
+  

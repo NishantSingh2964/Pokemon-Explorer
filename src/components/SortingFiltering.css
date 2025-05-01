@@ -1,0 +1,40 @@
+/* Container */
+.sorting-filtering {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 4.5rem;
+  }
+  
+  /* Search input */
+  .sorting-filtering input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    flex: 1 1 200px;
+  }
+  
+  /* Select dropdown */
+  .sorting-filtering select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    background-color: white;
+    flex: 1 1 150px;
+  }
+  
+  /* Button */
+  .sorting-filtering button {
+    padding: 0.5rem 1rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    flex: 1 1 100px;
+  }
+  
+  .sorting-filtering button:hover {
+    background-color: #2563eb;
+  }
+  
