@@ -23,7 +23,7 @@ export default function App() {
           <Router>
             <div className="min-h-screen bg-gray-100">
               {/* Header */}
-              <header className="p-4 bg-blue-500 text-white flex justify-between items-center">
+              <header className="sticky top-0 z-40 p-4 bg-blue-500 text-white flex justify-between items-center">
                 {/* Left side: App title */}
                 <h1 className="text-2xl font-bold">
                   <Link to="/">Pokémon Explorer</Link>
